@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    font-family:Arial,  sans-serif;
+    
+    
+}
+body{
+    
+    color: black;
+    background-image: url("C:\\Users\\NISHITHA\\OneDrive\\Desktop\\javascript\\cssproj\\weatherforecast\\background.jpg");
+}
+
+.weather{
+    width: 600px;
+    
+    margin: 100px auto;
+    padding: 40px;
+    text-align: center;
+}
+.heading{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-right: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.weather-search{
+    padding: 2rem 0 2rem 0;
+    text-align: center;
+    justify-content: center;
+    background: transparent;
+    height: 100px;
+    border-radius: 10px;
+    margin-right: 16px;
+    font-size: 18px;
+    display: flex;
+     
+}
+.weather-search input{
+    height: 4rem;
+    width: 20rem;
+    background: #212121;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px;
+    border: none;
+    background-color: white;
+    border: 2px solid #473939;
+    border-radius: 3px;
+    margin-right: 4px;
+    
+}
+.weather-search button{
+    border: 0;
+    outline: 0;
+    background: white;
+    border-radius: 5%;
+    width: 60px;
+    height: 87px;
+    cursor: pointer;
+    margin-left: 5px;
+    
+}
+.weather-search  i{
+    
+    width: 40px; 
+    
+}
+.weather-icon{
+     width:170px;
+     margin-top: 50px;
+}
+.weather-fore h1{
+    font-family:Arial,  sans-serif ;
+    font-size: 50px;
+    font-weight: 500;
+
+}
+.weather-fore h2{
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: -10px;
+    font-family: Arial,  sans-serif;
+
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 60px;
+
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left ;
+}
+.col i{
+    width: 40px;
+    margin-right: -20px;
+   
+}
+.humidity,.Wind{
+    font-size: 26px;
+    margin-top: -6px;
+    font-weight: 300;
+
+}
